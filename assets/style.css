@@ -1,0 +1,119 @@
+.stApp {
+    background: #071426;
+    color: white;
+}
+
+.block-container {
+    max-width: 1350px;
+    padding-top: 4.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+section[data-testid="stSidebar"] {
+    background: #0b1b31 !important;
+}
+
+.logo-box {
+    background: #10233d;
+    border-radius: 18px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.logo-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+.logo-subtitle {
+    color: #9fb6d8;
+    font-size: 13px;
+}
+
+.page-tag {
+    color: #FFC857;
+    font-size: 28px;        /* Increase this value as needed */
+    font-weight: 900;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.page-title {
+    font-size: 44px;
+    font-weight: 900;
+    color: white;
+}
+
+.page-subtitle {
+    color: #9fb6d8;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.kpi-card {
+    background: #0d213a;
+    border: 1px solid #24456d;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    min-height: 190px;
+}
+
+.kpi-title {
+    background: #ffc857;
+    color: #071426;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-weight: 900;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.kpi-value {
+    font-size: 52px;
+    font-weight: 900;
+    color: white;
+}
+
+.kpi-sub {
+    color: #21d07a;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.chart-title {
+    background: #ffc857;
+    color: #071426;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-weight: 900;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 15px auto;
+}
+
+.section-title {
+    color: #ffc857;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.stButton > button,
+.stDownloadButton > button {
+    background: #ffc857 !important;
+    color: #071426 !important;
+    border-radius: 12px !important;
+    border: none !important;
+    font-weight: 900 !important;
+}
+
+[data-testid="stDataFrame"] {
+    border-radius: 12px;
+    overflow: hidden;
+}
